@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TartarGuy's Lineups</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://db.onlinewebfonts.com/c/500000b38ae43ab9a1b11372480b6b48?family=DINNextW1G-Bold" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <center id="nav"><ul class="head">
+	<li class="head" style="float: left;line-height: 32px;"><a style="text-decoration: none;" href="./index.html">Home</a></li>
+	<li class="head" style="font-size: 32px;">Tartarguy's Lineups</li>
+	<li class="head" style="float: right;line-height: 32px;margin-right: 16px;"><a style="text-decoration: none;" href="agentselect.html">Select your agent</a></li>
+</ul></center>
+</head>
+
+<body style="background-color: #00AC44;">
+  <script src="script.js"></script>
+  <br>
+  <br>
+  <br>
+  <div style="margin-top: 20px;" class="centerviper">
+	<h3>Pick a map to find lineups:</h3>
+	<ul>
+		<li><a style="text-decoration: underline;" onclick="lookTo('ascent')">Ascent</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('bind')" >Bind</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('breeze')">Breeze</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('fracture')">Fracture</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('haven')">Haven</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('icebox')">Icebox</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('lotus')">Lotus</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('pearl')">Pearl</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('split')">Split</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('sunset')">Sunset</a></li>
+	</ul>
+</div>
+	<div id="ascent" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Ascent Lineups</h3><span onclick="copy('Ascent')" class="material-symbols-outlined">link</span><div id="Ascent" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Ascent: A site boxes</p>
+		<img id="AscentASiteBoxes" onclick="closerLook('AscentASiteBoxes')" src="viper/ascent/A BOXES.jpg">
+		<p>Ascent: A near door</p>
+		<img id="AscentANearDoor" onclick="closerLook('AscentANearDoor')" src="viper/ascent/A NEAR DOOR.jpg">
+		<p>Ascent: B back site boxes</p>
+		<img id="AscentBBackSiteBoxes" onclick="closerLook('AscentBBackSiteBoxes')" src="viper/ascent/B BACK SITE BOXES.jpg">
+		<p>Ascent: B site boxes</p>
+		<img id="AscentBSiteBoxes" onclick="closerLook('AscentBSiteBoxes')" src="viper/ascent/B BOXES.jpg">
+	</div>
+	<div id="bind" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Bind Lineups</h3><span onclick="copy('Bind')" class="material-symbols-outlined">link</span><div id="Bind" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Bind: A site boxes</p>
+		<img id="BindASiteBoxes" onclick="closerLook('BindASiteBoxes')" src="viper/bind/A SITE BOXES.jpg">
+		<p>Bind: A site vehicle</p>
+		<img id="BindASiteVehicle" onclick="closerLook('BindASiteVehicle')" src="viper/bind/A SITE VEHICLE.jpg">
+		<p>Bind: B site close left of tunnel</p>
+		<img id="BindBSiteCloseLeft" onclick="closerLook('BindBSiteCloseLeft')" src="viper/bind/B SITE CLOSE LEFT OF TUNNEL.jpg">
+		<p>Bind: B site tunnel box</p>
+		<img id="BindBSiteTunnelBox" onclick="closerLook('BindBSiteTunnelBox')" src="viper/bind/B SITE TUNNEL BOX.jpg">
+	</div>
+	<div id="breeze" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Breeze Lineups</h3><span onclick="copy('Breeze')" class="material-symbols-outlined">link</span><div id="Breeze" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Breeze: A site pyramid front</p>
+		<img id="BreezeASitePyramidF" onclick="closerLook('BreezeASitePyramidF')" src="viper/breeze/A SITE PYRAMID FRONT.jpg">
+		<p>Breeze: A site pyramid right</p>
+		<img id="BreezeASitePyramidR" onclick="closerLook('BreezeASitePyramidR')" src="viper/breeze/A SITE PYRAMID RIGHT.jpg">
+		<p>Breeze: B site front</p>
+		<img id="BreezeBSiteFront" onclick="closerLook('BreezeBSiteFront')" src="viper/breeze/B SITE FRONT.jpg">
+		<p>Breeze: B site left</p>
+		<img id="BreezeBSiteLeft" onclick="closerLook('BreezeBSiteLeft')" src="viper/breeze/B SITE LEFT.jpg">
+	</div>
+	<div id="fracture" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Fracture Lineups</h3><span onclick="copy('Fracture')" class="material-symbols-outlined">link</span><div id="Fracture" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Fracture: A site corner</p>
+		<img id="FractureASiteCorner" onclick="closerLook('FractureASiteCorner')" src="viper/fracture/A SITE CORNER.jpg">
+		<p>Fracture: A site middle</p>
+		<img id="FractureASiteMid" onclick="closerLook('FractureASiteMid')" src="viper/fracture/A SITE MIDDLE.jpg">
+		<p>Fracture: B site boxes</p>
+		<img id="FractureBSiteBoxes" onclick="closerLook('FractureBSiteBoxes')" src="viper/fracture/B SITE BOXES.jpg">
+		<p>Fracture: B site corner</p>
+		<img id="FractureBSiteCorner" onclick="closerLook('FractureBSiteCorner')" src="viper/fracture/B SITE CORNER.jpg">
+	</div>
+	<div id="haven" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Haven Lineups</h3><span onclick="copy('Haven')" class="material-symbols-outlined">link</span><div id="Haven" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Haven: A back site</p>
+		<img id="HavenABackSite" onclick="closerLook('HavenABackSite')" src="viper/haven/A BACK SITE.jpg">
+		<p>Haven: A site boxes</p>
+		<img id="HavenASiteBoxes" onclick="closerLook('HavenASiteBoxes')" src="viper/haven/A SITE BOXES.jpg">
+		<p>Haven: C back site</p>
+		<img id="HavenCBackSite" onclick="closerLook('HavenCBackSite')" src="viper/haven/C BACK SITE.jpg">
+		<p>Haven: C site boxes</p>
+		<img id="HavenCSiteBoxes" onclick="closerLook('HavenCSiteBoxes')" src="viper/haven/C SITE BOXES.jpg">
+	</div>
+	<div id="icebox" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Icebox Lineups</h3><span onclick="copy('Icebox')" class="material-symbols-outlined">link</span><div id="Icebox" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Icebox: A back site</p>
+		<img id="IceboxABackSite" onclick="closerLook('IceboxABackSite')" src="viper/icebox/A BACK SITE.jpg">
+		<p>Icebox: A site box</p>
+		<img id="IceboxASiteBox" onclick="closerLook('IceboxASiteBox')" src="viper/icebox/A SITE BOX.jpg">
+		<p>Icebox: B site corner</p>
+		<img id="IceboxBSiteCorner" onclick="closerLook('IceboxBSiteCorner')" src="viper/icebox/B SITE CORNER.jpg">
+		<p>Icebox: B site under</p>
+		<img id="IceboxBSiteUnder" onclick="closerLook('IceboxBSiteUnder')" src="viper/icebox/B SITE UNDER.jpg">
+	</div>
+	<div id="lotus" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Lotus Lineups</h3><span onclick="copy('Lotus')" class="material-symbols-outlined">link</span><div id="Lotus" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Lotus: A back site</p>
+		<img id="LotusABackSite" onclick="closerLook('LotusABackSite')" src="viper/lotus/A BACK SITE.jpg">
+		<p>Lotus: A site right of box</p>
+		<img id="LotusARightBox" onclick="closerLook('LotusARightBox')" src="viper/lotus/A SITE RIGHT OF BOX.jpg">
+		<p>Lotus: B site boxes</p>
+		<img id="LotusBSiteBoxes" onclick="closerLook('LotusBSiteBoxes')" src="viper/lotus/B SITE BOXES.jpg">
+		<p>Lotus: B site middle</p>
+		<img id="LotusBSiteMiddle" onclick="closerLook('LotusBSiteMiddle')" src="viper/lotus/B SITE MIDDLE.jpg">
+	</div>
+	<div id="pearl" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Pearl Lineups</h3><span onclick="copy('Pearl')" class="material-symbols-outlined">link</span><div id="Pearl" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Pearl: A site corner</p>
+		<img id="PearlASiteCorner" onclick="closerLook('PearlASiteCorner')" src="viper/pearl/A SITE CORNER.jpg">
+		<p>Pearl: A site middle</p>
+		<img id="PearlASiteMiddle" onclick="closerLook('PearlASiteMiddle')" src="viper/pearl/A SITE MIDDLE.jpg">
+		<p>Pearl: B site box</p>
+		<img id="PearlBSiteBox" onclick="closerLook('PearlBSiteBox')" src="viper/pearl/B SITE BOX.jpg">
+		<p>Pearl: B site close right</p>
+		<img id="PearlBSiteCloseRight" onclick="closerLook('PearlBSiteCloseRight')" src="viper/pearl/B SITE CLOSE RIGHT.jpg">
+	</div>
+	<div id="split" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Split Lineups</h3><span onclick="copy('Split')" class="material-symbols-outlined">link</span><div id="Split" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Split: A site corner</p>
+		<img id="SplitASiteCorner" onclick="closerLook('SplitASiteCorner')" src="viper/split/A SITE CORNER.jpg">
+		<p>Split: A site middle</p>
+		<img id="SplitASiteMiddle" onclick="closerLook('SplitASiteMiddle')" src="viper/split/A SITE MIDDLE.jpg">
+		<p>Split: B site box</p>
+		<img id="SplitBSiteBox" onclick="closerLook('SplitBSiteBox')" src="viper/split/B SITE BOX.jpg">
+		<p>Split: B site corner</p>
+		<img id="SplitBSiteCorner" onclick="closerLook('SplitBSiteCorner')" src="viper/split/B SITE CORNER.jpg">
+	</div>
+	<div id="sunset" style="margin-top: 20px;" class="centerviper">
+		<h3 style="display: inline;">Sunset Lineups</h3><span onclick="copy('Sunset')" class="material-symbols-outlined">link</span><div id="Sunset" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+	</div>
+</body>
+<div id="repeatLeft" style='left: -8.75871016vw;width: 45vw;top: 51px;background-image: url("repeatingText/Viper_Repeating_Text.png");'></div>
+<div id="repeatRight" style='right: -10.21905115vw;width: 45vw;top: 51px;background-image: url("repeatingText/Viper_Repeating_Text.png");'></div>
+<div id="repeatMidL" style='right: 39.21905115vw;width: 45vw;top: 51px;background-image: url("repeatingText/Viper_Repeating_Text.png");'></div>
+<div id="repeatMidR" style='left: 39.75871016vw;width: 45vw;top: 51px;background-image: url("repeatingText/Viper_Repeating_Text.png");'></div>
+</html>

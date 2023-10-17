@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .pop {
+      display: none;
+  }
+  
+  @font-face { font-family: Valorant; src: url('Valorant\ Font.ttf'); } 
+  
+  h1 {
+    font-family: 'Valorant';
+    background-color: #0F1923;
+  }
+  
+  html {
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url("agentsbckgrnd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    color: #fffbf5;
+    font-family: "DINNextW1G-Bold";
+  }
+  
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #0F1923;
+    color: #fffbf5;
+    font-size: 16px;
+    font-family: 'Valorant';
+  }
+  
+  li {
+    display: inline-block;
+    padding: 8px;
+    margin: 0px;
+  }
+  
+  a:link { color: #fffbf5; }
+  a:visited { text-decoration: none; color: #fffbf5; }
+  a:hover { color: #cfcbc5; }
+  a:active { text-decoration: none; color: #fffbf5; }
+
+  .headshot {
+    margin: 0px;
+    width: 85px;
+    border-radius: 0px;
+    border: 0.5px solid #cfcbc5;
+    background-color: rgba(207, 203, 197, 0.2);
+    padding: 0px;
+  }
+
+  .headshot:hover {
+    background-color: rgba(217, 213, 207, 0.3);
+  }
+
+  .blur {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    height: calc(100vh - 51px);
+    width: 100%;
+  }
+
+  #agentArt {
+    height: 100vh;
+    position: absolute;
+    left: calc(50vw - 50vh);
+    top: 0px;
+  }
+
+  #textArt {
+    height: calc(100vh - 51px);
+    position: absolute;
+    left: calc(50vw - calc(calc(100vh - 51px) / 2));
+    top: 51px;
+  }
+
+  #agentContainer {
+    position: absolute;
+    top: 75vh;
+    left: calc(50vw - 228px);
+    width: 456px;
+  }
+
+  @keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .out {
+    animation-name: fadeOut;
+    animation-duration: 100ms;
+  }
+
+  .in {
+    animation-name: fadeIn;
+    animation-duration: 100ms;
+  }
+
+  .inText {
+    animation-name: fadeIn;
+    animation-duration: 600ms;
+  }

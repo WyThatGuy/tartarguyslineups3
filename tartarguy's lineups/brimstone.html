@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TartarGuy's Lineups</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://db.onlinewebfonts.com/c/500000b38ae43ab9a1b11372480b6b48?family=DINNextW1G-Bold" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <center id="nav"><ul class="head">
+	<li class="head" style="float: left;line-height: 32px;"><a style="text-decoration: none;" href="./index.html">Home</a></li>
+	<li class="head" style="font-size: 32px;">Tartarguy's Lineups</li>
+	<li class="head" style="float: right;line-height: 32px;margin-right: 16px;"><a style="text-decoration: none;" href="agentselect.html">Select your agent</a></li>
+</ul></center>
+</head>
+
+<body style="background-color: 	rgb(218, 110, 15);">
+  <script src="script.js"></script>
+  <br>
+  <br>
+  <br>
+  <div style="margin-top: 20px;" class="centerbrimstone">
+	<h3>Pick a map to find lineups:</h3>
+	<ul>
+		<li><a style="text-decoration: underline;" onclick="lookTo('ascent')">Ascent</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('bind')" >Bind</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('breeze')">Breeze</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('fracture')">Fracture</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('haven')">Haven</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('icebox')">Icebox</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('lotus')">Lotus</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('pearl')">Pearl</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('split')">Split</a></li>
+		<li><a style="text-decoration: underline;" onclick="lookTo('sunset')">Sunset</a></li>
+	</ul>
+</div>
+	<div id="ascent" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Ascent Lineups</h3><span onclick="copy('Ascent')" class="material-symbols-outlined">link</span><div id="Ascent" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Ascent: A site boxes</p>
+		<img id="AscentASiteBoxes" onclick="closerLook('AscentASiteBoxes')" src="placeholder.png">
+		<p>Ascent: A near door</p>
+		<img id="AscentANearDoor" onclick="closerLook('AscentANearDoor')" src="placeholder.png">
+		<p>Ascent: B back site boxes</p>
+		<img id="AscentBBackSiteBoxes" onclick="closerLook('AscentBBackSiteBoxes')" src="placeholder.png">
+		<p>Ascent: B site boxes</p>
+		<img id="AscentBSiteBoxes" onclick="closerLook('AscentBSiteBoxes')" src="placeholder.png">
+	</div>
+	<div id="bind" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Bind Lineups</h3><span onclick="copy('Bind')" class="material-symbols-outlined">link</span><div id="Bind" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Bind: A site boxes</p>
+		<img id="BindASiteBoxes" onclick="closerLook('BindASiteBoxes')" src="placeholder.png">
+		<p>Bind: A site vehicle</p>
+		<img id="BindASiteVehicle" onclick="closerLook('BindASiteVehicle')" src="placeholder.png">
+		<p>Bind: B site close left of tunnel</p>
+		<img id="BindBSiteCloseLeft" onclick="closerLook('BindBSiteCloseLeft')" src="placeholder.png">
+		<p>Bind: B site tunnel box</p>
+		<img id="BindBSiteTunnelBox" onclick="closerLook('BindBSiteTunnelBox')" src="placeholder.png">
+	</div>
+	<div id="breeze" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Breeze Lineups</h3><span onclick="copy('Breeze')" class="material-symbols-outlined">link</span><div id="Breeze" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Breeze: A site pyramid front</p>
+		<img id="BreezeASitePyramidF" onclick="closerLook('BreezeASitePyramidF')" src="placeholder.png">
+		<p>Breeze: A site pyramid right</p>
+		<img id="BreezeASitePyramidR" onclick="closerLook('BreezeASitePyramidR')" src="placeholder.png">
+		<p>Breeze: B site front</p>
+		<img id="BreezeBSiteFront" onclick="closerLook('BreezeBSiteFront')" src="placeholder.png">
+		<p>Breeze: B site left</p>
+		<img id="BreezeBSiteLeft" onclick="closerLook('BreezeBSiteLeft')" src="placeholder.png">
+	</div>
+	<div id="fracture" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Fracture Lineups</h3><span onclick="copy('Fracture')" class="material-symbols-outlined">link</span><div id="Fracture" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Fracture: A site corner</p>
+		<img id="FractureASiteCorner" onclick="closerLook('FractureASiteCorner')" src="placeholder.png">
+		<p>Fracture: A site middle</p>
+		<img id="FractureASiteMid" onclick="closerLook('FractureASiteMid')" src="placeholder.png">
+		<p>Fracture: B site boxes</p>
+		<img id="FractureBSiteBoxes" onclick="closerLook('FractureBSiteBoxes')" src="placeholder.png">
+		<p>Fracture: B site corner</p>
+		<img id="FractureBSiteCorner" onclick="closerLook('FractureBSiteCorner')" src="placeholder.png">
+	</div>
+	<div id="haven" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Haven Lineups</h3><span onclick="copy('Haven')" class="material-symbols-outlined">link</span><div id="Haven" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Haven: A back site</p>
+		<img id="HavenABackSite" onclick="closerLook('HavenABackSite')" src="placeholder.png">
+		<p>Haven: A site boxes</p>
+		<img id="HavenASiteBoxes" onclick="closerLook('HavenASiteBoxes')" src="placeholder.png">
+		<p>Haven: C back site</p>
+		<img id="HavenCBackSite" onclick="closerLook('HavenCBackSite')" src="placeholder.png">
+		<p>Haven: C site boxes</p>
+		<img id="HavenCSiteBoxes" onclick="closerLook('HavenCSiteBoxes')" src="placeholder.png">
+	</div>
+	<div id="icebox" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Icebox Lineups</h3><span onclick="copy('Icebox')" class="material-symbols-outlined">link</span><div id="Icebox" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Icebox: A back site</p>
+		<img id="IceboxABackSite" onclick="closerLook('IceboxABackSite')" src="placeholder.png">
+		<p>Icebox: A site box</p>
+		<img id="IceboxASiteBox" onclick="closerLook('IceboxASiteBox')" src="placeholder.png">
+		<p>Icebox: B site corner</p>
+		<img id="IceboxBSiteCorner" onclick="closerLook('IceboxBSiteCorner')" src="placeholder.png">
+		<p>Icebox: B site under</p>
+		<img id="IceboxBSiteUnder" onclick="closerLook('IceboxBSiteUnder')" src="placeholder.png">
+	</div>
+	<div id="lotus" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Lotus Lineups</h3><span onclick="copy('Lotus')" class="material-symbols-outlined">link</span><div id="Lotus" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Lotus: A back site</p>
+		<img id="LotusABackSite" onclick="closerLook('LotusABackSite')" src="placeholder.png">
+		<p>Lotus: A site right of box</p>
+		<img id="LotusARightBox" onclick="closerLook('LotusARightBox')" src="placeholder.png">
+		<p>Lotus: B site boxes</p>
+		<img id="LotusBSiteBoxes" onclick="closerLook('LotusBSiteBoxes')" src="placeholder.png">
+		<p>Lotus: B site middle</p>
+		<img id="LotusBSiteMiddle" onclick="closerLook('LotusBSiteMiddle')" src="placeholder.png">
+	</div>
+	<div id="pearl" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Pearl Lineups</h3><span onclick="copy('Pearl')" class="material-symbols-outlined">link</span><div id="Pearl" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Pearl: A site corner</p>
+		<img id="PearlASiteCorner" onclick="closerLook('PearlASiteCorner')" src="placeholder.png">
+		<p>Pearl: A site middle</p>
+		<img id="PearlASiteMiddle" onclick="closerLook('PearlASiteMiddle')" src="placeholder.png">
+		<p>Pearl: B site box</p>
+		<img id="PearlBSiteBox" onclick="closerLook('PearlBSiteBox')" src="placeholder.png">
+		<p>Pearl: B site close right</p>
+		<img id="PearlBSiteCloseRight" onclick="closerLook('PearlBSiteCloseRight')" src="placeholder.png">
+	</div>
+	<div id="split" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Split Lineups</h3><span onclick="copy('Split')" class="material-symbols-outlined">link</span><div id="Split" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Split: A site corner</p>
+		<img id="SplitASiteCorner" onclick="closerLook('SplitASiteCorner')" src="placeholder.png">
+		<p>Split: A site middle</p>
+		<img id="SplitASiteMiddle" onclick="closerLook('SplitASiteMiddle')" src="placeholder.png">
+		<p>Split: B site box</p>
+		<img id="SplitBSiteBox" onclick="closerLook('SplitBSiteBox')" src="placeholder.png">
+		<p>Split: B site corner</p>
+		<img id="SplitBSiteCorner" onclick="closerLook('SplitBSiteCorner')" src="placeholder.png">
+	</div>
+	<div id="sunset" style="margin-top: 20px;" class="centerbrimstone">
+		<h3 style="display: inline;">Sunset Lineups</h3><span onclick="copy('Sunset')" class="material-symbols-outlined">link</span><div id="Sunset" class="copied"><div class="copytext">Link Copied</div><div class="arrow"></div></div>
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+		<p>Sunset: TBD</p>
+		<img src="placeholder.png">
+	</div>
+</body>
+<div id="repeatLeft" style='left: -12.25vw;width: 50vw;top: 51px;background-image: url("repeatingText/Brimstone_Repeating_Text.png");'></div>
+<div id="repeatRight" style='right: -12.25vw;width: 50vw;top: 51px;background-image: url("repeatingText/Brimstone_Repeating_Text.png");'></div>
+<div id="repeatMidL" style='left: 12.25vw;width: 50vw;top: 51px;background-image: url("repeatingText/Brimstone_Repeating_Text.png");'></div>
+<div id="repeatMidR" style='right: 12.25vw;width: 50vw;top: 51px;background-image: url("repeatingText/Brimstone_Repeating_Text.png");'></div>
+</html>

@@ -1,0 +1,284 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+.pop {
+	display: none;
+}
+
+@font-face { font-family: Valorant; src: url('Valorant\ Font.ttf'); } 
+
+h1 {
+  font-family: 'Valorant';
+  background-color: #0F1923;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #BD3944;
+  padding: 0px;
+  margin: 0px;
+  color: #fffbf5;
+  font-family: "DINNextW1G-Bold";
+}
+
+ul.head {
+  width: 100vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: #0F1923;
+  color: #fffbf5;
+  font-size: 16px;
+  font-family: 'Valorant';
+}
+
+li.head {
+  display: inline-block;
+  padding: 8px;
+  margin: 0px;
+}
+
+a:link { color: #fffbf5; }
+a:visited { text-decoration: none; color: #fffbf5; }
+a:hover { color: #cfcbc5; }
+a:active { text-decoration: none; color: #fffbf5; }
+
+a {
+  cursor: pointer;
+}
+
+.centerviper {
+  margin: auto;
+  width: 50%;
+  background-color: #070c11;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.centerbrimstone {
+  margin: auto;
+  width: 50%;
+  background-color: #3d1006;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.centergekko {
+  margin: auto;
+  width: 50%;
+  background-color: #2D2B40;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.centerkayo {
+  margin: auto;
+  width: 50%;
+  background-color: #222c34;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.centerkilljoy {
+  margin: auto;
+  width: 50%;
+  background-color: #0f161b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+img {
+  width: 25vw;
+  border-radius: 10px;
+}
+
+#nav {
+  position: fixed;
+  top: 0px;
+  z-index: 50;
+}
+
+#repeatLeft {
+  width: 40vw;
+  height: 1000%;
+  position: absolute;
+  left: -8vw;
+  top: 50px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+#repeatRight {
+  width: 40vw;
+  height: 1000%;
+  position: absolute;
+  right: -8vw;
+  top: 50px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+#repeatMidL {
+  width: 40vw;
+  height: 1000%;
+  position: absolute;
+  right: 20vw;
+  top: 50px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+#repeatMidR {
+  width: 40vw;
+  height: 1000%;
+  position: absolute;
+  right: 20vw;
+  top: 50px;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+@keyframes toFull {
+  from {
+    position: initial;
+    width: 25vw;
+    border-radius: 10px;
+    object-fit: initial;
+    height: auto;
+  }
+  to {
+    border-radius: 0px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+  }
+}
+
+@keyframes fromFull {
+  from {
+    border-radius: 0px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+  }
+  to {
+    position: initial;
+    width: 25vw;
+    border-radius: 10px;
+    object-fit: initial;
+    height: auto;
+  }
+}
+
+.fullscreen {
+  animation-name: toFull;
+  animation-duration: 500ms;
+  border-radius: 0px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.normalized {
+  animation-name: fromFull;
+  animation-duration: 500ms;
+  position: initial;
+  width: 25vw;
+  border-radius: 10px;
+  object-fit: initial;
+  height: auto;
+}
+
+.material-symbols-outlined {
+  color: #cfcbc5;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  top: 6px;
+}
+
+.material-symbols-outlined:hover {
+  color: #aca8a2;
+}
+
+.material-symbols-outlined:active {
+  color: #807c78;
+}
+
+span {
+  cursor: pointer;
+}
+
+.copied {
+  opacity: 0;
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  top: 18px;
+  background-color: black;
+  border: 1px solid rgb(99, 99, 99);
+  padding: 3px;
+  border-radius: 3px;
+  width: 83px;
+  height: 19px;
+}
+
+.arrow {
+  content: "";
+  display: inline-block;
+  position: relative;
+  left: -10px;
+  top: -18px;
+  background-color: black;
+  border-left: 1.41421356237px solid rgb(99, 99, 99);
+  border-bottom: 1.41421356237px solid rgb(99, 99, 99);
+  padding: 3px;
+  border-radius: 0.5px;
+  z-index: 0;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+}
+
+.copytext {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  display: inline-block;
+}
+
+@keyframes linked {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: linked;
+  animation-duration: 0.5s;
+}
